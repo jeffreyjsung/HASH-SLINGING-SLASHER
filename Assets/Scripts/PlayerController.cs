@@ -110,6 +110,11 @@ public class PlayerController : MonoBehaviour
         anim.SetFloat("DirX", currDirection.x);
         anim.SetFloat("DirY", currDirection.y);
     }
+
+    public void setSpeed(float speed)
+    {
+        movespeed = speed;
+    }
     #endregion
 
     #region Attack_functions
@@ -144,6 +149,12 @@ public class PlayerController : MonoBehaviour
                 Debug.Log("Tons of Damage");
                 Debug.Log(hit.collider.gameObject);
                 hit.transform.GetComponent<Enemy>().TakeDamage(Damage);
+            }
+            if (hit.transform.CompareTag("TankEnemy"))
+            {
+                Debug.Log("Tons of Damage");
+                Debug.Log(hit.collider.gameObject);
+                hit.transform.GetComponent<TankEnemy>().TakeDamage(Damage);
             }
         }
         yield return new WaitForSeconds(hitboxtiming);
