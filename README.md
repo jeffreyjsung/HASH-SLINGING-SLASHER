@@ -1,2 +1,2 @@
-# basic2dgame
-# basic2dgame-updated
+#HASH-SLINGING-SLASHER
+UC Berkeley Game Development and Design Project 1.
