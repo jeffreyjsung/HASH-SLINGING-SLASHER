@@ -1,2 +1,2 @@
 # HASH-SLINGING-SLASHER
-UC Berkeley Game Development and Design Project 1.
+A basic top-down 2D hack and slash game.
