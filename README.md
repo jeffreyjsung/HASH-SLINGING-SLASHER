@@ -1,2 +1,2 @@
 # HASH-SLINGING-SLASHER
-A basic top-down 2D hack and slash game.
+A top-down 2D hack and slash game.
